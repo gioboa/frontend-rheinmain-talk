@@ -1,0 +1,11 @@
+amplify init
+amplify add auth
+amplify push
+npm i @aws-amplify/auth
+
+----
+
+amplify add api
+amplify codegen models
+amplify push
+npm i @aws-amplify/datastore
